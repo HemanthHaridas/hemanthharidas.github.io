@@ -200,6 +200,7 @@ footer {
   margin-right: 15px;
 }
 
+
 @media only screen and (max-width : 1260px) {
   .contact {
     visibility: hidden;
@@ -212,13 +213,27 @@ footer {
     visibility: hidden;
   }
 
-  .body_container .about_container {
-    box-shadow: none;
-    width: 100%;
+}
+
+@media only screen and (max-width : 600px) {
+
+  .body_container {
+    display: none;
   }
 
-  .body_container .biosketch_container {
-    box-shadow: none;
-    width: 100%;
+  .body_container_small {
+    padding: 15px;
+    display: flex;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 20pt;
   }
+}
+
+@media only screen and (min-width : 600px) {
+
+  .body_container_small {
+    display: none;
+  }
+
 }
