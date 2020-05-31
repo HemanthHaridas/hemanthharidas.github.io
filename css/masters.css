@@ -103,7 +103,7 @@ main {
 }
 
 .body_container {
-  min-height: 95vh;
+  min-height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
