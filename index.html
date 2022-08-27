@@ -136,9 +136,10 @@
 		<script>
 			let slideIndex = 0;
 			let myslidestime = setTimeout(showSlides, 4000);
+			let test = document.getElementsByClassName("research-slides");
 			showSlides();
 
-			document.getElementsByClassName("research-slides").on({
+			test.on({
 				mouseenter: function(e){
 					clearTimeout(myslidestime);
 				},
