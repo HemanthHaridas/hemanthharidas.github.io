@@ -135,19 +135,7 @@
     		</footer>
 		<script>
 			let slideIndex = 0;
-			let myslidestime = setTimeout(showSlides, 4000);
-			let test = document.getElementsByClassName("research-slides");
 			showSlides();
-
-			test.on({
-				mouseenter: function(e){
-					clearTimeout(myslidestime);
-				},
-				mouseleave: function(e){
-					myslidestime = setTimeout(showSlides, 4000);
-				}
-			}
-			);
 			
 			function showSlides() {
   				let i;
@@ -161,6 +149,7 @@
 				}
 				slides[slideIndex-1].style.display = "flex";
 				console.log(slideIndex);
+				setTimeout(showSlides, 10000);
 			}
 		</script>
 		<script>
