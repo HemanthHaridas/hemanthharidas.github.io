@@ -135,8 +135,19 @@
     		</footer>
 		<script>
 			let slideIndex = 0;
+			let myslidestime = setTimeout(showSlides, 4000);
 			showSlides();
 
+			$("#hemanth-research").on({
+				mouseenter: function(e){
+					clearTimeout(myslidestime);
+				}
+				mouseleave: function(e){
+					myslidestime = setTimeout(showSlides, 4000);
+				}
+			}
+			);
+			
 			function showSlides() {
   				let i;
   				let slides = document.getElementsByClassName("research-slides");
@@ -149,8 +160,6 @@
 				}
 				slides[slideIndex-1].style.display = "flex";
 				console.log(slideIndex);
-				$("#hemanth-research").on('mouseenter',function(){clearTimeout, setTimeout(showslides, 5000);});
-				$("#hemanth-research").on('mouseleave',function(){setTimeout(showslides, 5000);});
 			}
 		</script>
 		<script>
