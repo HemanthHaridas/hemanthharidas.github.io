@@ -32,7 +32,7 @@
 				<p> I am actively looking for Post-Doctoral Positions in Computational Chemsitry and (or) Computational Material Sciences. Any Potential Leads would be much appreciated. </p>
 			</div>
 			<div class="profile-container" id="hemanth-profile">
-				<div class="profile-picture"> <img src="./images/profile.jpg"> Me (circa 2019) </div>
+				<div class="profile-picture"> <img src="./images/profile.jpg"> Me (circa 2021) </div>
 				<div class="profile-description">
 					<h3> ~!</h3>
 					<p> Welcome to My Virtual Estate. I am Hemanth Haridas <p>
@@ -149,6 +149,8 @@
 				}
 				slides[slideIndex-1].style.display = "flex";
 				console.log(slideIndex);
+				$("research-slides").on('mouseenter',function(){clearTimeout, setTimeout(showslides, 5000);});
+				$("research-slides").on('mouseleave',function(){setTimeout(showslides, 5000);});
 				setTimeout(showSlides, 5000);
 			}
 		</script>
