@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <meta name="keywords" content="drude, force field, FF, Drude, nucleobase, graphene, MD">
+    <title> Hemanth Haridas </title>
+</head>
+<body>
+    <nav class="navigation-container-mobile" id="navigation-container-mobile">
+        <div class="navigation-bar-mobile" id="navigation-bar-mobile">
+            <div class="navigation-item-mobile">
+                Hemanth Haridas
+            </div>
+            <button type="button" class="collapse-menu" id="collapse-menu"> 
+                <div class="menu-icon" id="menu-icon">
+                    <div class="menu-icon-rect"></div>
+                    <div class="menu-icon-rect"></div>
+                    <div class="menu-icon-rect"></div>
+                </div>
+            </button>
+        </div>
+        <div class="collapse-menu-container" id="collapse-menu-container">
+            <div class="navigation-item">
+                <a href="#research-description"> Research </a>
+            </div>
+            <div class="navigation-item">
+                <a href="#publications"> Publications </a>
+            </div>
+            <div class="navigation-item">
+                <a href="#contact-information"> Contact </a>
+            </div>               
+        </div>
+    </nav>
+    <main>
+        <div class="about-container" id="about-container">
+            <div class="about-description" id="about-description">
+                <!-- <div class="personal-image" id="personal-image">
+                    <img src="../images/Hemanth.png">
+                </div> -->
+                <p class="about-me" id="about-me">
+                    I am Hemanth Haridas, a PostDoctoral fellow in the research group of Prof. Aurora E. Clark at the Department of Chemistry, University of Utah. I was previously a doctoral student at the Department of Chemistry, Indian Institute of Technology (IIT) Gandhinagar. I had worked under the guidance of Dr. Sairam S. Mallajosyula from 2018 to 2023, focusing on computational chemistry and molecular modeling. My research primarily involves studying the interactions between nucleobases and graphene, and the effects of ions at the graphene - electrolyte interface. I completed my Integrated M.Sc. program in Chemistry at Pondicherry University in 2018. I have recently submitted my PhD thesis and I am currently waiting for my open defense.
+                </p>
+            </div>
+        </div>
+        <div class="thesis-container" id="thesis-container">
+            <div class="thesis-summary" id="thesis-summary">
+                <h3> Thesis Summary </h3>
+                In my thesis we investigated the effect of molecular polarizability on the dynamics of ssDNA through the graphene nanopore. To achieve this, we first transferred and tested the Drude polarizable FF parameters to describe a polarizable graphene surface, and then used it to understand the dynamics of a system of nucleobases in presence of the graphene surface. This discussion formed the first chapter of the thesis. In the second chapter, we investigated the effect of solute concentration on the formation of self-assemblies in nucleobases dispersed over a graphene surface, using cytosine as a model system. Here, we investigated the effect of solute concentration by considering three distinct surface coverages that correspond to low (0.25M), medium (0.50M) and high (0.75M). In the third chapter, we investigated the dynamics of an electrolyte solution in presence of a polarizable graphene surface. Here, we first investigated the interaction of one molecule of an ionic salt of interest (LiCl, NaCl, KCl, CsCl, MgCl<sub>2</sub> and CaCl<sub>2</sub>) to identify the modes of interactions of cations and the common counter anion. In the final chapter, we investigated the translocation dynamics of four ssDNA homopolymers through a polarizable pristine graphene membrane, to evaluate the effect of molecular polarizability on the translocation dynamics of the ssDNA through the graphene nanopore.
+            </div>
+            <div class="thesis-files" id="thesis-files">
+                You can download the extended abstract to my thesis here, and a pdf copy of my PhD thesis here.
+            </div>
+        </div>
+        <div class="research-container" id="research-container">
+            <div class="research-description" id="research-description">
+                <h3> Research </h3>
+                <div class="research-topic" id="research-topic">
+                    <b> Spontaneous Self-Assembly of Canonical Nucleobases over Graphene Surface :</b> Small molecules can undergo spontaneous self-assembly on two-dimensional surfaces to form materials with tunable properties. However, there is a discrepancy between experimental studies and molecular dynamics (MD) simulations based on classical non-polarizable additive force fields (FFs) regarding the formation of such monolayered assemblies. To mitigate this, we employed Drude Polarizable FF simulations to demonstrate that canonical nucleobases can form ordered self-assemblies when dispersed over a graphene surface. This result is consistent with previous experimental studies that reported similar behavior in nucleobases dispersed over graphene and/or metallic surfaces. Our study reveals the shortcomings of the classical non-polarizable additive FFs, as they fail to capture the dynamics of nucleobase self-assembly in the presence of a solid support.
+                </div>
+                <div class="research-topic" id="research-topic">
+                    <b> Understanding Electrolyte behaviour at Graphene - Electrolyte Interface :</b> Understanding the behaviour of electrolyte solutions at graphene - electrolyte interface has significant implications in areas like supercapacitors, desalination and electrochemical sensing applications. Previous studies based on ab-initio DFT calculations and AIMD studies demonstrated the influnece of polarizability on the dynamics of electrolyte solutions interacting with the graphene surface. However, the extremely poor scaling of the DFT methods indicate the need for an alternative methodology to investigate such systems. Using Drude Polarizable FF simulations, we demonstrated the influnece of polarizability on the binding energetics of mono and divalent ions with the graphene surface, with an accurate description of the anion-graphene interactions. We also demonstrated the influnece of ionic charge on the dipole moments of the water molecules in the first hydration shells of the ions.
+                </div>
+                <div class="research-topic" id="research-topic">
+                    <b> DNA Bio-nanotechnology :</b> Graphene is a two-dimensional material that has potential applications in DNA sequencing, but its performance is affected by significant pore clogging, which hinders the passage of DNA molecules. Molecular dynamics (MD) simulations based on classical non-polarizable additive force fields (FFs) do not capture this phenomenon, while experimental studies report it frequently. In this study, we use Drude Polarizable FF simulations, which account for the polarizability of atoms, to investigate the mechanisms of pore clogging. We observed that intra-strand (pi-stacking and hydrogen bonding) interactions play a significant role in the formation and/or stabilization of clogged states. We also demonstrated the pore-diameter independent translocation dynamics of the ssDNA through the graphene nanopore, which was also observed from previous experimental investigations.
+                </div>
+            </div>
+        </div>
+        <div class="publications-container" id="publications-container">
+            <h3> Publications </h3>
+            <ol class="publications" id="publications">
+                <li>
+                    <b> H., Hemanth</b> and Mallajosyula*, S.S.; Polarization Influences the Evolution of Nucleobase - Graphene Interactions; <i> Nanoscale</i>, 2021, <b> 13</b>, 4060 - 4072; <a href="https://doi.org/10.1039/D0NR08796C" target="_blank"> https://doi.org/10.1039/D0NR08796C </a>
+                </li>
+                <li> 
+                    <b> H., Hemanth</b>, Yadav, P.K. and Mallajosyula*, S.S; Capturing Concentration-Induced Aggregation of Nucleobases on a Graphene Surface through Polarizable Force Field Simulations; <i> J. Phys. Chem. C</i>, 2022, <b> 31</b>, 13122 - 13131; <a href="https://doi.org/10.1021/acs.jpcc.2c02910" target="_blank"> https://doi.org/10.1021/acs.jpcc.2c02910 </a>
+                </li>
+                <li> 
+                    <b> H., Hemanth</b>, Mewada, R. and Mallajosyula*, S.S; Capturing Charge and Size Effects of Ions at the Graphene - Electrolyte Interface Using Polarizable Force Field Simulations; <i> Nanoscale Adv.</i>, 2023, <b> 5</b>, 796 - 804; <a href="https://doi.org/10.1039/D2NA00733A" target="_blank"> https://doi.org/10.1039/D2NA00733A </a> 
+                </li>
+                <li> 
+                    <b> H., Hemanth</b> and Mallajosyula*, S.S; Unveiling DNA Translocation in Pristine Graphene Nanopores: Understanding Pore Clogging via Polarizable Simulations; <i> ACS Appl. Mater. Interfaces</i>, 2023, <b> xxxx</b>, xxxx - xxxx; <a href="https://doi.org/10.1021/acsami.3c12262" target="_blank"> https://doi.org/10.1021/acsami.3c12262 </a> 
+                </li>
+                <li> 
+                    <b> H., Hemanth</b> and Mallajosyula*, S.S; Graphene : From Solid Support for Nucleobase Assisted Self-Assemblies to Functional Material for DNA Sequencing; <i> J. Phys. Chem. C</i>, 2024, <b> xxxx</b>, xxxx - xxxx; <a href="https://doi.org/10.1021/acs.jpcc.3c08041" target="_blank"> https://doi.org/10.1021/acs.jpcc.3c08041 </a> 
+                </li>
+            </ol>
+        </div>
+        <div class="contact-container" id="contact-container">
+            <h3> Contact </h3>
+            <div class="contact-information" id="contact-information">
+                Hemanth Haridas <br>
+                Door No: 4610 <br>
+                Henry Eyring Centre for Theoretical Chemistry <br>
+                University of Utah <br>
+                Salt Lake City <br>
+                Utah <br>
+                Email: <a href="mailto:u6055105@umail.utah.edu"> u6055105[at]umail.utah.edu</a>
+            </div>
+        </div>
+    </main>
+    <script>
+        var collapseMenuContainer = document.getElementsByClassName("collapse-menu");
+        collapseMenuContainer[0].addEventListener("click", function(){
+                this.classList.toggle("active");
+                var collapsedMenuContainer = document.getElementsByClassName("collapse-menu-container")[0];
+                if (collapsedMenuContainer.style.display == "block") {
+                    collapsedMenuContainer.style.display = "none";
+                }
+                else {
+                    collapsedMenuContainer.style.display = "block";
+                }
+            }
+        );
+    </script>
+</body>
+</html>
