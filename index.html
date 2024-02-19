@@ -6,28 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    <p>
+        You will be redirected to the web page soon.
+    </p>
     <script>
-        // Define the screen resolution thresholds and corresponding URLs
-        var resolutions = [
-        { width: 1280, url: './src/main.html' },
-        { width: 400, url: './src/mobile.html' }
-    ];
-
-    // Get the current screen resolution
-    var screenWidth = window.screen.width;
-    var screenHeight = window.screen.height;
-
-    console.log(screenWidth);
-
-    // Loop through the resolutions array
-    for (var i = 0; i < resolutions.length; i++) {
-        // Check if the current screen resolution matches one in the array
-        if (screenWidth === resolutions[i].width) {
-            // Open the corresponding website in a new window
-            window.open(resolutions[i].url, '_blank');
-            break;
+        if (window.innerWidth <= 768) {
+                window.location.href = "./src/mobile.html";
         }
-    }
+        else {
+                window.location.href = "./src/main.html";
+        }
     </script>
 </body>
 </html>
