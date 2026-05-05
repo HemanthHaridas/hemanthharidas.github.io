@@ -1,21 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hemanth Haridas - Computational Chemist, Molecular Dynamics, Quantum Chemistry Software">
+<meta name="keywords" content="computational chemistry, molecular dynamics, Drude polarizable force field, graphene, quantum chemistry, Hemanth Haridas">
+<title>Hemanth Haridas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <p>
-        You will be redirected to the web page soon.
+
+<!-- ─── NAVIGATION ─── -->
+<nav id="navbar">
+  <a href="#hero" class="nav-brand">Hemanth Haridas</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-socials">
+    <a href="https://github.com/HemanthHaridas" target="_blank" title="GitHub" aria-label="GitHub">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.167 6.839 9.49.5.09.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.742 0 .267.18.578.688.48C19.137 20.165 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+    </a>
+    <a href="https://scholar.google.com/citations?user=HemanthHaridas" target="_blank" title="Google Scholar" aria-label="Google Scholar">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 10a8 8 0 017.162 3.44L24 9.5 12 0z"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/hemanthharidas" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section id="hero">
+  <div class="hero-text">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Computational Chemist
+    </div>
+    <h1 class="hero-name">Hemanth<br>Haridas</h1>
+    <p class="hero-title">
+      PhD · Indian Institute of Technology Gandhinagar<br>
+      <strong>PostDoc, University of Utah (2024-2025)</strong>
     </p>
-    <script>
-        if (window.innerWidth <= 768) {
-                window.location.href = "./src/mobile.html";
-        }
-        else {
-                window.location.href = "./src/main.html";
-        }
-    </script>
+    <p class="hero-bio">
+      Computational chemist specializing in molecular dynamics, Drude polarizable force fields, and quantum chemistry software development. My research spans graphene-electrolyte interfaces, DNA bio-nanotechnology, and aluminate mineral dissolution.
+    </p>
+    <div class="hero-cta">
+      <a href="./files/CV_Hemanth.pdf" class="btn btn-primary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download CV
+      </a>
+      <a href="#publications" class="btn btn-secondary">
+        View Publications →
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-photo-wrap">
+      <img src="./images/Hemanth.png" alt="Hemanth Haridas" class="hero-photo" />
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">5</div>
+        <div class="hero-stat-label">Publications</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">6+</div>
+        <div class="hero-stat-label">Years Research</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">Institutions</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── ABOUT ─── -->
+<section id="about">
+  <div class="section-label">
+    <span class="section-label-text">About Me</span>
+    <span class="section-label-line"></span>
+  </div>
+  <div class="about-grid">
+    <div class="about-sidebar">
+      <div class="about-card">
+        <img src="./images/Hemanth.png" class="about-photo" alt="Hemanth Haridas">
+        <div class="about-name">Hemanth Haridas</div>
+        <div class="about-role">Computational Chemist<br>PhD · IIT Gandhinagar</div>
+        <div class="about-links">
+          <a href="mailto:hemanth.haridas@utah.edu" class="about-link">
+            <div class="about-link-icon">✉</div>
+            hemanth.haridas@utah.edu
+          </a>
+          <a href="https://github.com/HemanthHaridas" target="_blank" class="about-link">
+            <div class="about-link-icon">⌥</div>
+            github.com/HemanthHaridas
+          </a>
+          <a href="https://scholar.google.com/citations?user=HemanthHaridas" target="_blank" class="about-link">
+            <div class="about-link-icon">◆</div>
+            Google Scholar
+          </a>
+          <a href="https://linkedin.com/in/hemanthharidas" target="_blank" class="about-link">
+            <div class="about-link-icon">in</div>
+            LinkedIn
+          </a>
+          <a href="./files/CV_Hemanth.pdf" class="about-link">
+            <div class="about-link-icon">↓</div>
+            Curriculum Vitae
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <h2 class="section-heading">Computational Chemistry<br>at the Frontier of Polarizability</h2>
+      <p>
+        I am a computational chemist who recently completed a PostDoctoral Fellowship (2024-2025) at the Henry Eyring Centre for Theoretical Chemistry, University of Utah, where I focused on modeling the dissolution and nucleation pathways of aluminate minerals in highly concentrated aqueous electrolytes.
+      </p>
+      <p>
+        Prior to this, I was a doctoral student at the Department of Chemistry, Indian Institute of Technology (IIT) Gandhinagar under Prof. Sairam S. Mallajosyula. My PhD research centered on computational chemistry and molecular modeling — specifically the interactions between nucleobases and graphene, and the effects of ions at the graphene-electrolyte interface.
+      </p>
+      <p>
+        I completed my Integrated M.Sc. program in Chemistry at Pondicherry University in 2018, and successfully defended my PhD Thesis on April 10, 2024.
+      </p>
+      <p>
+        Alongside my research, I develop scientific software — most notably <a href="#projects" style="color:var(--teal);font-weight:600;text-decoration:none">Planck</a>, a from-scratch quantum chemistry program implementing RHF, UHF, Kohn-Sham DFT, CASSCF, and more, written in modern C++23.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── RESEARCH ─── -->
+<section id="research">
+  <div class="section-label">
+    <span class="section-label-text">Research</span>
+    <span class="section-label-line"></span>
+  </div>
+  <h2 class="section-heading">Areas of Investigation</h2>
+  <p class="section-sub">Bridging the gap between experimental observations and molecular-level understanding using polarizable force fields and ab initio methods.</p>
+
+  <div class="research-grid">
+    <div class="research-card">
+      <div class="research-icon">⬡</div>
+      <h3>Nucleobase Self-Assembly on Graphene</h3>
+      <p>Employing Drude Polarizable FF simulations to demonstrate that canonical nucleobases form ordered self-assemblies over graphene surfaces — consistent with experimental observations that classical non-polarizable additive FFs fail to capture.</p>
+    </div>
+    <div class="research-card">
+      <div class="research-icon">⚡</div>
+      <h3>Graphene-Electrolyte Interface</h3>
+      <p>Investigating how molecular polarizability governs ion-graphene binding energetics and water dipole moments in hydration shells of mono- and divalent ions, providing a scalable alternative to AIMD for interface studies.</p>
+    </div>
+    <div class="research-card">
+      <div class="research-icon">⬡</div>
+      <h3>DNA Bio-Nanotechnology</h3>
+      <p>Probing ssDNA translocation dynamics through pristine graphene nanopores with Drude Polarizable FF simulations, revealing the role of π-stacking and hydrogen bonding in pore-clogging and pore-diameter-independent dynamics.</p>
+    </div>
+    <div class="research-card">
+      <div class="research-icon">◎</div>
+      <h3>Aluminate Mineral Dissolution</h3>
+      <p>PostDoc research at the University of Utah (2024-2025): modeling dissolution and nucleation pathways of aluminate minerals in highly concentrated aqueous electrolytes — with implications for carbon capture and materials design.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="background:none;height:1px;background:rgba(255,255,255,0.07)"></div>
+
+<!-- ─── THESIS ─── -->
+<section id="thesis">
+  <div class="section-label">
+    <span class="section-label-text">Thesis</span>
+    <span class="section-label-line"></span>
+  </div>
+  <h2 class="section-heading">PhD Thesis Summary</h2>
+  <div class="thesis-layout">
+    <div class="thesis-summary">
+      <p>
+        My thesis investigated the effect of molecular polarizability on the dynamics of ssDNA through a graphene nanopore. Using the Drude polarizable force field as the primary computational framework, the work progressively builds from fundamental graphene-molecule interactions to biologically relevant translocation processes.
+      </p>
+      <p>
+        A key motivation was the significant discrepancy between experimental studies and MD simulations based on classical non-polarizable additive force fields. By incorporating atomic polarizability, we captured phenomena — self-assembly, electrolyte behavior, pore clogging — that eluded conventional approaches entirely.
+      </p>
+      <div class="thesis-links">
+        <a href="https://github.com/HemanthHaridas/PhD-Thesis/blob/main/Hemanth_Extended_Abstract.pdf" target="_blank" class="btn btn-secondary" style="font-size:0.85rem;padding:8px 18px">
+          Extended Abstract →
+        </a>
+        <a href="https://github.com/HemanthHaridas/PhD-Thesis/blob/main/phdthesis.pdf" target="_blank" class="btn btn-primary" style="font-size:0.85rem;padding:8px 18px">
+          Full Thesis →
+        </a>
+      </div>
+    </div>
+    <div class="thesis-chapters">
+      <div class="chapter-card">
+        <div class="chapter-num">01</div>
+        <div>
+          <div class="chapter-title">Drude Polarizable FF for Graphene</div>
+          <div class="chapter-desc">Transferring and validating polarizable FF parameters for graphene; nucleobase dynamics in the presence of the graphene surface.</div>
+        </div>
+      </div>
+      <div class="chapter-card">
+        <div class="chapter-num">02</div>
+        <div>
+          <div class="chapter-title">Concentration-Induced Nucleobase Aggregation</div>
+          <div class="chapter-desc">Effect of surface coverage (low 0.25M, medium 0.50M, high 0.75M) on self-assembly of cytosine on graphene.</div>
+        </div>
+      </div>
+      <div class="chapter-card">
+        <div class="chapter-num">03</div>
+        <div>
+          <div class="chapter-title">Electrolyte Behaviour at Interfaces</div>
+          <div class="chapter-desc">Binding energetics of LiCl, NaCl, KCl, CsCl, MgCl₂, CaCl₂ at the polarizable graphene surface; ion-water dipole effects.</div>
+        </div>
+      </div>
+      <div class="chapter-card">
+        <div class="chapter-num">04</div>
+        <div>
+          <div class="chapter-title">ssDNA Translocation Dynamics</div>
+          <div class="chapter-desc">Translocation of four ssDNA homopolymers through a polarizable graphene nanopore; pore clogging mechanisms and diameter-independent dynamics.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── PUBLICATIONS ─── -->
+<section id="publications" style="background:var(--cream-dark)">
+  <div class="section-label">
+    <span class="section-label-text">Publications</span>
+    <span class="section-label-line"></span>
+  </div>
+  <h2 class="section-heading">Peer-Reviewed Research</h2>
+  <p class="section-sub">Five publications in high-impact journals including <em>Nanoscale</em>, <em>J. Phys. Chem. C</em>, <em>Nanoscale Advances</em>, and <em>ACS Applied Materials &amp; Interfaces</em>.</p>
+
+  <div class="pub-list">
+    <div class="pub-card">
+      <div class="pub-num">01</div>
+      <div>
+        <div class="pub-authors"><strong>H., Hemanth</strong> and Mallajosyula*, S.S.</div>
+        <div class="pub-title">Polarization Influences the Evolution of Nucleobase-Graphene Interactions</div>
+        <div class="pub-meta">
+          <span class="pub-journal"><em>Nanoscale</em>, 2021, <strong>13</strong>, 4060-4072</span>
+          <a href="https://doi.org/10.1039/D0NR08796C" target="_blank" class="pub-tag">DOI ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-card">
+      <div class="pub-num">02</div>
+      <div>
+        <div class="pub-authors"><strong>H., Hemanth</strong>, Yadav, P.K. and Mallajosyula*, S.S.</div>
+        <div class="pub-title">Capturing Concentration-Induced Aggregation of Nucleobases on a Graphene Surface through Polarizable Force Field Simulations</div>
+        <div class="pub-meta">
+          <span class="pub-journal"><em>J. Phys. Chem. C</em>, 2022, <strong>31</strong>, 13122-13131</span>
+          <a href="https://doi.org/10.1021/acs.jpcc.2c02910" target="_blank" class="pub-tag">DOI ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-card">
+      <div class="pub-num">03</div>
+      <div>
+        <div class="pub-authors"><strong>H., Hemanth</strong>, Mewada, R. and Mallajosyula*, S.S.</div>
+        <div class="pub-title">Capturing Charge and Size Effects of Ions at the Graphene-Electrolyte Interface Using Polarizable Force Field Simulations</div>
+        <div class="pub-meta">
+          <span class="pub-journal"><em>Nanoscale Adv.</em>, 2023, <strong>5</strong>, 796-804</span>
+          <a href="https://doi.org/10.1039/D2NA00733A" target="_blank" class="pub-tag">DOI ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-card">
+      <div class="pub-num">04</div>
+      <div>
+        <div class="pub-authors"><strong>H., Hemanth</strong> and Mallajosyula*, S.S.</div>
+        <div class="pub-title">Unveiling DNA Translocation in Pristine Graphene Nanopores: Understanding Pore Clogging via Polarizable Simulations</div>
+        <div class="pub-meta">
+          <span class="pub-journal"><em>ACS Appl. Mater. Interfaces</em>, 2023, <strong>47</strong>, 55095-55108</span>
+          <a href="https://doi.org/10.1021/acsami.3c12262" target="_blank" class="pub-tag">DOI ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-card">
+      <div class="pub-num">05</div>
+      <div>
+        <div class="pub-authors"><strong>H., Hemanth</strong> and Mallajosyula*, S.S.</div>
+        <div class="pub-title">Graphene: From Solid Support for Nucleobase Assisted Self-Assemblies to Functional Material for DNA Sequencing</div>
+        <div class="pub-meta">
+          <span class="pub-journal"><em>J. Phys. Chem. C</em>, 2024, <strong>8</strong>, 3091-3112</span>
+          <a href="https://doi.org/10.1021/acs.jpcc.3c08041" target="_blank" class="pub-tag">DOI ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── PROJECTS ─── -->
+<section id="projects">
+  <div class="section-label">
+    <span class="section-label-text">Coding Projects</span>
+    <span class="section-label-line"></span>
+  </div>
+  <h2 class="section-heading">Open-Source Scientific Software</h2>
+  <p class="section-sub">Building quantum chemistry tools from first principles — combining deep theoretical understanding with modern software engineering.</p>
+
+  <div class="project-featured">
+    <div class="project-header">
+      <div class="project-badge">Featured Project · C++23</div>
+      <div class="project-name">Planck</div>
+      <p class="project-tagline">A quantum chemistry program implementing RHF, UHF, and Kohn-Sham DFT with Obara-Saika integrals, analytic gradients, geometry optimization, vibrational analysis, multipole moments, symmetry detection, and binary checkpointing.</p>
+      <div class="project-tags">
+        <span class="tech-tag">C++23</span>
+        <span class="tech-tag">CMake</span>
+        <span class="tech-tag">Eigen 3.4</span>
+        <span class="tech-tag">libxc</span>
+        <span class="tech-tag">libmsym</span>
+        <span class="tech-tag">OpenMP</span>
+        <span class="tech-tag">Python</span>
+      </div>
+    </div>
+
+    <div class="project-body">
+      <div class="project-features">
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>RHF / UHF / RKS / UKS</strong> — Closed and open-shell Hartree-Fock and Kohn-Sham DFT via two dedicated executables</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Dual integral engines</strong> — Obara-Saika for low angular momentum; Rys quadrature for high angular momentum with auto-selection</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Post-HF methods</strong> — RMP2 / UMP2, CASSCF, SA-CASSCF, and RASSCF with active-space integral caching</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Analytic nuclear gradients</strong> — RHF and UHF analytic gradients; geometry optimization in Cartesian and generalized internal coordinates</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Vibrational analysis</strong> — Semi-numerical Hessian from finite differences; mass-weighted normal modes, frequencies in cm⁻¹, ZPE</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Symmetry detection</strong> — Point group via libmsym; MO irreducible representation labels; Abelian-subgroup handling for non-Abelian groups</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>DIIS convergence</strong> — Automatic subspace restart; virtual orbital level-shifting for open-shell systems</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Checkpoint system</strong> — Binary <code style="font-family:'JetBrains Mono',monospace;font-size:0.8em;background:var(--cream-dark);padding:1px 5px;border-radius:3px">.hfchk</code> files; same-basis restart and cross-basis density projection</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Extensive basis set library</strong> — STO-nG, Pople split-valence, triple-zeta, Dunning cc, aug-cc; auto-fetched via Basis Set Exchange</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Electric multipoles</strong> — Dipole and quadrupole moment analysis automatically after each SCF convergence</p>
+        </div>
+      </div>
+
+      <div class="project-footer">
+        <div class="project-doi">
+          <span class="doi-dot"></span>
+          DOI: 10.5281/zenodo.19478938
+        </div>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap">
+          <a href="https://github.com/HemanthHaridas/planck-refactored" target="_blank" class="btn btn-secondary" style="font-size:0.85rem;padding:8px 18px">
+            View on GitHub →
+          </a>
+          <a href="https://hemanthharidas.github.io/planck-refactored/" target="_blank" class="btn btn-primary" style="font-size:0.85rem;padding:8px 18px">
+            Documentation →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── SKILLS ─── -->
+<section id="skills">
+  <div class="section-label">
+    <span class="section-label-text">Skills &amp; Tools</span>
+    <span class="section-label-line"></span>
+  </div>
+  <h2 class="section-heading">Technical Toolkit</h2>
+
+  <div class="skills-grid">
+    <div class="skill-category">
+      <div class="skill-category-head">
+        <div class="skill-category-icon" style="background:var(--teal-light)">⚗</div>
+        <h3>Simulation Software</h3>
+      </div>
+      <div class="skill-tags">
+        <span class="skill-tag">GROMACS</span>
+        <span class="skill-tag">NAMD</span>
+        <span class="skill-tag">CHARMM</span>
+        <span class="skill-tag">AMBER</span>
+        <span class="skill-tag">VMD</span>
+        <span class="skill-tag">Gaussian</span>
+        <span class="skill-tag">ORCA</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-head">
+        <div class="skill-category-icon" style="background:var(--amber-light)">⌥</div>
+        <h3>Programming Languages</h3>
+      </div>
+      <div class="skill-tags">
+        <span class="skill-tag">C++23</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Bash</span>
+        <span class="skill-tag">CMake</span>
+        <span class="skill-tag">Fortran</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-head">
+        <div class="skill-category-icon" style="background:#EDE9FE">⬡</div>
+        <h3>Force Fields</h3>
+      </div>
+      <div class="skill-tags">
+        <span class="skill-tag">Drude Polarizable FF</span>
+        <span class="skill-tag">CHARMM FF</span>
+        <span class="skill-tag">AMBER FF</span>
+        <span class="skill-tag">OPLS-AA</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-head">
+        <div class="skill-category-icon" style="background:#DCFCE7">◎</div>
+        <h3>Data Analysis</h3>
+      </div>
+      <div class="skill-tags">
+        <span class="skill-tag">NumPy</span>
+        <span class="skill-tag">MDAnalysis</span>
+        <span class="skill-tag">matplotlib</span>
+        <span class="skill-tag">pandas</span>
+        <span class="skill-tag">SciPy</span>
+        <span class="skill-tag">Jupyter</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-head">
+        <div class="skill-category-icon" style="background:var(--teal-light)">⚛</div>
+        <h3>Quantum Chemistry</h3>
+      </div>
+      <div class="skill-tags">
+        <span class="skill-tag">HF / DFT</span>
+        <span class="skill-tag">MP2</span>
+        <span class="skill-tag">CASSCF</span>
+        <span class="skill-tag">Basis Set Theory</span>
+        <span class="skill-tag">libxc</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-head">
+        <div class="skill-category-icon" style="background:#FEE2E2">◼</div>
+        <h3>Infrastructure</h3>
+      </div>
+      <div class="skill-tags">
+        <span class="skill-tag">Linux / HPC</span>
+        <span class="skill-tag">SLURM</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">OpenMP</span>
+        <span class="skill-tag">MPI</span>
+        <span class="skill-tag">GitHub Actions</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact">
+  <div class="section-label">
+    <span class="section-label-text">Contact</span>
+    <span class="section-label-line"></span>
+  </div>
+  <h2 class="section-heading">Get in Touch</h2>
+  <p class="section-sub">Open to collaborations, discussions, and questions about computational chemistry, molecular dynamics, or quantum chemistry software.</p>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon-wrap">✉</div>
+        <div>
+          <div class="contact-item-label">Email</div>
+          <div class="contact-item-value">
+            <a href="mailto:hemanth.haridas@utah.edu">hemanth.haridas@utah.edu</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon-wrap">◎</div>
+        <div>
+          <div class="contact-item-label">Office</div>
+          <div class="contact-item-value">
+            Door No: 4620<br>
+            Henry Eyring Centre for Theoretical Chemistry<br>
+            University of Utah, Salt Lake City, Utah<br>
+            <span style="font-size:0.8rem;color:rgba(255,255,255,0.35)">(PostDoc, 2024-2025)</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon-wrap">⌥</div>
+        <div>
+          <div class="contact-item-label">GitHub</div>
+          <div class="contact-item-value">
+            <a href="https://github.com/HemanthHaridas" target="_blank">github.com/HemanthHaridas</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon-wrap">◆</div>
+        <div>
+          <div class="contact-item-label">Google Scholar</div>
+          <div class="contact-item-value">
+            <a href="https://scholar.google.com/citations?user=HemanthHaridas" target="_blank">Search "Hemanth Haridas" on Google Scholar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-quote">
+      <div class="contact-quote-text">
+        I think I can safely say that nobody understands Quantum Mechanics.
+      </div>
+      <div class="contact-quote-author">— Richard Feynman</div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-text">
+    Created by <span>Hemanth Haridas</span> · Hosted on GitHub Pages
+  </div>
+  <div class="footer-text">
+    © 2024 Hemanth Haridas
+  </div>
+</footer>
+
+<script>
+  // Navbar scroll shadow
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Scroll-triggered section reveal
+  const sections = document.querySelectorAll('section:not(#hero)');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  sections.forEach(s => observer.observe(s));
+
+  // Stagger pub card hovers
+  document.querySelectorAll('.pub-card').forEach((card, i) => {
+    card.style.transitionDelay = `${i * 0.04}s`;
+  });
+</script>
 </body>
 </html>
