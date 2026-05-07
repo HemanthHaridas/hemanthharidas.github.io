@@ -1346,6 +1346,10 @@ footer
     {
         display: none;
     }
+    .research-grid
+    {
+        grid-template-columns: 1fr;
+    }
     .hero-photo, .hero-photo-placeholder
     {
         width: 180px;
